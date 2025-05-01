@@ -1,0 +1,698 @@
+[
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 49194.0,
+    "sum_position": {
+      "row": 5,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 48118.0,
+        "position": {
+          "row": 3,
+          "col": 3
+        }
+      },
+      {
+        "value": 1076.0,
+        "position": {
+          "row": 4,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 49194.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 49194.0,
+    "sum_position": {
+      "row": 5,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 33738.0,
+        "position": {
+          "row": 15,
+          "col": 3
+        }
+      },
+      {
+        "value": 15456.0,
+        "position": {
+          "row": 17,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 49194.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 15456.0,
+    "sum_position": {
+      "row": 17,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 3782.0,
+        "position": {
+          "row": 22,
+          "col": 3
+        }
+      },
+      {
+        "value": 11674.0,
+        "position": {
+          "row": 24,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 15456.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 3782.0,
+    "sum_position": {
+      "row": 22,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 2873.0,
+        "position": {
+          "row": 20,
+          "col": 3
+        }
+      },
+      {
+        "value": 909.0,
+        "position": {
+          "row": 21,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 3782.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 47307.0,
+    "sum_position": {
+      "row": 5,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 46276.0,
+        "position": {
+          "row": 3,
+          "col": 4
+        }
+      },
+      {
+        "value": 1031.0,
+        "position": {
+          "row": 4,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 47307.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 47307.0,
+    "sum_position": {
+      "row": 5,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 32591.0,
+        "position": {
+          "row": 15,
+          "col": 4
+        }
+      },
+      {
+        "value": 14716.0,
+        "position": {
+          "row": 17,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 47307.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 14716.0,
+    "sum_position": {
+      "row": 17,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 3257.0,
+        "position": {
+          "row": 22,
+          "col": 4
+        }
+      },
+      {
+        "value": 11459.0,
+        "position": {
+          "row": 24,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 14716.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 11459.0,
+    "sum_position": {
+      "row": 24,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 259.0,
+        "position": {
+          "row": 31,
+          "col": 4
+        }
+      },
+      {
+        "value": 11200.0,
+        "position": {
+          "row": 33,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 11459.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 49194.0,
+    "sum_position": {
+      "row": 5,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 48118.0,
+        "position": {
+          "row": 3,
+          "col": 3
+        }
+      },
+      {
+        "value": 1076.0,
+        "position": {
+          "row": 4,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 49194.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 49194.0,
+    "sum_position": {
+      "row": 5,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 33738.0,
+        "position": {
+          "row": 15,
+          "col": 3
+        }
+      },
+      {
+        "value": 15456.0,
+        "position": {
+          "row": 17,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 49194.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 15456.0,
+    "sum_position": {
+      "row": 17,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 3782.0,
+        "position": {
+          "row": 22,
+          "col": 3
+        }
+      },
+      {
+        "value": 11674.0,
+        "position": {
+          "row": 24,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 15456.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 3782.0,
+    "sum_position": {
+      "row": 22,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 2873.0,
+        "position": {
+          "row": 20,
+          "col": 3
+        }
+      },
+      {
+        "value": 909.0,
+        "position": {
+          "row": 21,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 3782.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 47307.0,
+    "sum_position": {
+      "row": 5,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 46276.0,
+        "position": {
+          "row": 3,
+          "col": 4
+        }
+      },
+      {
+        "value": 1031.0,
+        "position": {
+          "row": 4,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 47307.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 47307.0,
+    "sum_position": {
+      "row": 5,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 32591.0,
+        "position": {
+          "row": 15,
+          "col": 4
+        }
+      },
+      {
+        "value": 14716.0,
+        "position": {
+          "row": 17,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 47307.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 14716.0,
+    "sum_position": {
+      "row": 17,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 3257.0,
+        "position": {
+          "row": 22,
+          "col": 4
+        }
+      },
+      {
+        "value": 11459.0,
+        "position": {
+          "row": 24,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 14716.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 11459.0,
+    "sum_position": {
+      "row": 24,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 259.0,
+        "position": {
+          "row": 31,
+          "col": 4
+        }
+      },
+      {
+        "value": 11200.0,
+        "position": {
+          "row": 33,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 11459.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 49194.0,
+    "sum_position": {
+      "row": 6,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 48118.0,
+        "position": {
+          "row": 4,
+          "col": 3
+        }
+      },
+      {
+        "value": 1076.0,
+        "position": {
+          "row": 5,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 49194.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 49194.0,
+    "sum_position": {
+      "row": 6,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 33738.0,
+        "position": {
+          "row": 15,
+          "col": 3
+        }
+      },
+      {
+        "value": 15456.0,
+        "position": {
+          "row": 16,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 49194.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 15456.0,
+    "sum_position": {
+      "row": 16,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 3782.0,
+        "position": {
+          "row": 20,
+          "col": 3
+        }
+      },
+      {
+        "value": 11674.0,
+        "position": {
+          "row": 21,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 15456.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 3,
+    "sum_value": 3782.0,
+    "sum_position": {
+      "row": 20,
+      "col": 3
+    },
+    "components": [
+      {
+        "value": 2873.0,
+        "position": {
+          "row": 18,
+          "col": 3
+        }
+      },
+      {
+        "value": 909.0,
+        "position": {
+          "row": 19,
+          "col": 3
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 3782.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 47307.0,
+    "sum_position": {
+      "row": 6,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 46276.0,
+        "position": {
+          "row": 4,
+          "col": 4
+        }
+      },
+      {
+        "value": 1031.0,
+        "position": {
+          "row": 5,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 47307.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 47307.0,
+    "sum_position": {
+      "row": 6,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 32591.0,
+        "position": {
+          "row": 15,
+          "col": 4
+        }
+      },
+      {
+        "value": 14716.0,
+        "position": {
+          "row": 16,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 47307.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 14716.0,
+    "sum_position": {
+      "row": 16,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 3257.0,
+        "position": {
+          "row": 20,
+          "col": 4
+        }
+      },
+      {
+        "value": 11459.0,
+        "position": {
+          "row": 21,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 14716.0,
+    "pattern": "subset_sum"
+  },
+  {
+    "page": 1,
+    "type": "vertical",
+    "col": 4,
+    "sum_value": 11459.0,
+    "sum_position": {
+      "row": 21,
+      "col": 4
+    },
+    "components": [
+      {
+        "value": 259.0,
+        "position": {
+          "row": 27,
+          "col": 4
+        }
+      },
+      {
+        "value": 11200.0,
+        "position": {
+          "row": 28,
+          "col": 4
+        }
+      }
+    ],
+    "valid": true,
+    "computed_sum": 11459.0,
+    "pattern": "subset_sum"
+  }
+]
