@@ -1,142 +1,113 @@
-# PDF Table & Sum Analysis
+# Financial Statement OCR & Verification System
 
-A comprehensive Python tool for extracting tables from PDF documents and identifying numerical relationships, particularly vertical sums in financial statements and reports.
+A powerful system that extracts data from financial statement images using OCR, converts the data into structured JSON, and verifies the mathematical accuracy of financial calculations.
 
+## Overview
 
-## 🔍 Overview
+This project combines advanced OCR (Optical Character Recognition) capabilities from Mistral AI with financial calculation verification through OpenAI's models. The system:
 
-This utility tackles the challenging problem of extracting and validating tabular data from PDFs with a focus on numerical values and sum relationships. It uses multiple extraction methods to maximize accuracy and provides detailed output for analysis.
+1. Processes financial statement images through OCR
+2. Converts extracted text into structured JSON data
+3. Verifies the mathematical accuracy of financial calculations
+4. Outputs comprehensive analysis results
 
-### Key Features
+## Architecture
 
-- **Multi-Method Table Extraction**: Uses multiple libraries (pdfplumber, camelot) to handle various table formats
-- **Numeric Value Detection**: Identifies and extracts numbers from complex text
-- **Sum Relationship Analysis**: Automatically detects vertical sum patterns in columns
-- **Complete Reporting**: Generates detailed CSV and JSON outputs for further analysis
-- **Batch Processing**: Handles single files or entire directories of PDFs
+The system consists of two main components:
 
-## 📊 Project Architecture
+- **OCR Processing** (`main.py`): Handles image processing using Mistral's OCR and text-to-JSON conversion with Pixtral
+- **Financial Verification** (`helper.py`): Validates the mathematical accuracy of all financial calculations
 
-The project is centered around the `PDFTableProcessor` class with a pipeline approach:
+## Requirements
 
-```
-PDF Document → Table Extraction → Numeric Value Identification → Sum Detection → Reports & Visualization
-```
+- Python 3.8+
+- Mistral AI API account
+- OpenAI API key (or compatible API endpoint)
+- Required Python packages:
+  - mistralai
+  - openai
+  - python-dotenv
 
-### Components Breakdown
-
-1. **PDF Loading**: Uses PdfReader and pdfplumber to open and prepare documents
-2. **Table Extraction**: 
-   - pdfplumber for basic table structures
-   - camelot in both "lattice" (bordered) and "stream" (borderless) modes
-3. **Numeric Processing**: Regular expressions to identify and clean numeric values
-4. **Sum Detection Algorithms**: Multiple pattern detection approaches:
-   - First value is sum of others
-   - Last value is sum of others
-   - Any value could be sum of sequential subset
-5. **Output Generation**: Produces CSV tables and JSON relationship reports
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.7+
-- Java Runtime Environment (for Tabula/Camelot)
-
-### Installation
+## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pdf-table-analysis.git
-   cd pdf-table-analysis
-   ```
-
-2. Create and activate a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Dependencies
-
-```
-pdfplumber
-camelot-py
-tabula-py
-numpy
-pandas
-PyPDF2
-```
-
-## 💻 Usage
-
-### Basic Usage
-
-```python
-from pdf_table_processor import analyze_pdf
-
-# Process a single PDF
-report = analyze_pdf("path/to/your/financial-statement.pdf")
-```
-
-### Batch Processing
-
-```python
-from pdf_table_processor import batch_process_pdfs
-
-# Process all PDFs in a directory
-batch_process_pdfs("path/to/pdf/directory")
-```
-
-### Command Line Interface
 
 ```bash
-python pdf_analyzer.py Financial-Statement-11.pdf
+git clone https://github.com/yourusername/financial-statement-ocr.git
+cd financial-statement-ocr
 ```
 
-## 📋 Output Files
+2. Install required packages:
 
-The tool generates several output files in the specified output directory:
+```bash
+pip install -r requirements.txt
+```
 
-1. **CSV Tables**: One file per detected table with naming pattern:
-   `{filename}_p{page}_t{table_number}_{method}.csv`
+3. Create a `.env` file in the project root with your API keys:
 
-2. **Sum Relationships**: JSON file with all detected numerical relationships:
-   `{filename}_sums.json`
+```
+MISTRAL_API_KEY=your_mistral_api_key
+ENDPOINT=your_openai_compatible_endpoint
+GITHUB_ACCESS_CODE=your_openai_api_key
+```
 
-3. **Combined Report**: When batch processing, a summary of all analyzed files:
-   `combined_report.json`
+## Project Structure
 
-## 🧠 How It Works
+```
+financial-statement-ocr/
+├── main.py               # OCR processing logic
+├── helper.py             # Financial verification logic
+├── .env                  # Environment variables (API keys)
+├── input/                # Input financial statement images
+│   └── Financial-Statement-9_page_1.jpg
+├── output/               # Generated JSON outputs
+│   ├── Financial-Statement-9_page_1_ocr.json
+│   └── Financial-Statement-9_page_1_result.json
+└── README.md             # This file
+```
 
-### Table Extraction Strategy
+## Usage
 
-The code uses multiple extraction methods because PDFs can represent tables in different ways:
+1. Place financial statement images in the `input/` directory
+2. Run the main script:
 
-1. **pdfplumber**: Good for basic tables with clear structure
-2. **camelot (lattice)**: Excels at tables with visible borders/lines
-3. **camelot (stream)**: Better for tables defined by whitespace without borders
+```bash
+python main.py
+```
 
-For each pattern, the code:
-- Groups numeric values by column
-- Tests various combinations of values
-- Validates potential sums with a small tolerance (0.01) for rounding errors
+3. Check the `output/` directory for results:
+   - `*_ocr.json`: Structured data extracted from the image
+   - `*_result.json`: Verification of calculations with accuracy reports
 
-## 🔧 Future Improvements
+## Workflow
 
-- **OCR Integration**: Currently, the tool doesn't use OCR but could be enhanced with:
-  - Tesseract OCR (open-source)
-  - Amazon Textract (paid AWS service)
-  - Mistral OCR or other commercial OCR engines
-  
-- **Horizontal Sum Detection**: Add capability to detect row-based sums
-- **Machine Learning Classification**: Train models to better identify table headers and sum rows
-- **PDF Preprocessing**: Add image enhancement for better extraction from scanned documents
-- **Interactive Visualization**: Web interface to view and validate detected relationships
+1. **Image Loading**: The system loads a financial statement image and converts it to base64
+2. **OCR Processing**: Mistral's OCR model extracts text from the image
+3. **Text to JSON**: Pixtral model converts the OCR text into structured JSON
+4. **Financial Verification**: The helper module analyzes the JSON data to verify calculations
+5. **Result Output**: Final analysis is saved as JSON files in the output directory
 
+## Customization
 
+To process different image files, modify the file path in `main.py`:
+
+```python
+ocr_processor("input/your_financial_statement.jpg")
+```
+
+## Error Handling
+
+The system includes basic error handling for:
+- Missing input files
+- API connection issues
+- JSON parsing errors
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request

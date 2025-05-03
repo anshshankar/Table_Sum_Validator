@@ -1,0 +1,134 @@
+{
+    "Standalone Balance Sheet": {
+        "All amounts in crores of \u20b9, except share data and as stated otherwise": {
+            "As at": {
+                "31 March 2024": {
+                    "I": {
+                        "ASSETS": {
+                            "(1) Non-current assets": {
+                                "(a) Property, plant and equipment": 3225,
+                                "(b) Capital work in progress": 22,
+                                "(c) Right-of-use assets": 1048,
+                                "(d) Goodwill": 6549,
+                                "(e) Other intangible assets": 5511,
+                                "(f) Financial assets": {
+                                    "(i) Investments": 5040,
+                                    "(ii) Trade receivables - unbilled": 162,
+                                    "(iii) Loans": 286,
+                                    "(iv) Others": 641
+                                },
+                                "(g) Deferred tax assets (net)": -543,
+                                "(h) Other non-current assets": 278
+                            },
+                            "Total non-current assets": 22762,
+                            "(2) Current assets": {
+                                "(a) Inventories": 25,
+                                "(b) Financial assets": {
+                                    "(i) Investments": 6801,
+                                    "(ii) Trade receivables": {
+                                        "Billed": 3880,
+                                        "Unbilled": 8278
+                                    },
+                                    "(iii) Cash and cash equivalents": 837,
+                                    "(iv) Other bank balances": 6792,
+                                    "(v) Loans": 793,
+                                    "(vi) Others": 1128
+                                },
+                                "(c) Current tax assets (net)": 6,
+                                "(d) Other current assets": 1005
+                            },
+                            "Total current assets": 29545
+                        },
+                        "TOTAL ASSETS": 52307
+                    },
+                    "II": {
+                        "EQUITY": {
+                            "(a) Equity share capital": 543,
+                            "(b) Other equity": 38927,
+                            "TOTAL EQUITY": 39470
+                        }
+                    },
+                    "III": {
+                        "LIABILITIES": {
+                            "(1) Non - current liabilities": {
+                                "(a) Financial liabilities": {
+                                    "(i) Borrowings": 26,
+                                    "(ii) Lease liabilities": 651,
+                                    "(iii) Others": 8
+                                },
+                                "(b) Contract liabilities": 101,
+                                "(c) Provisions": 1065,
+                                "(d) Deferred tax liabilities (net)": -465,
+                                "(e) Other non-current liabilities": 57
+                            },
+                            "Total non-current liabilities": 2373
+                        }
+                    }
+                },
+                "31 March 2023": {
+                    "I": {
+                        "ASSETS": {
+                            "(1) Non-current assets": {
+                                "(a) Property, plant and equipment": 3727,
+                                "(b) Capital work in progress": 21,
+                                "(c) Right-of-use assets": 824,
+                                "(d) Goodwill": 6549,
+                                "(e) Other intangible assets": 6835,
+                                "(f) Financial assets": {
+                                    "(i) Investments": 5057,
+                                    "(ii) Trade receivables - unbilled": 82,
+                                    "(iii) Loans": 2602,
+                                    "(iv) Others": 875
+                                },
+                                "(g) Deferred tax assets (net)": 543,
+                                "(h) Other non-current assets": 276
+                            },
+                            "Total non-current assets": 24789,
+                            "(2) Current assets": {
+                                "(a) Inventories": 35,
+                                "(b) Financial assets": {
+                                    "(i) Investments": 5102,
+                                    "(ii) Trade receivables": {
+                                        "Billed": 5317,
+                                        "Unbilled": 7596
+                                    },
+                                    "(iii) Cash and cash equivalents": 2374,
+                                    "(iv) Other bank balances": 3857,
+                                    "(v) Loans": 2602,
+                                    "(vi) Others": 603
+                                },
+                                "(c) Current tax assets (net)": 6,
+                                "(d) Other current assets": 1079
+                            },
+                            "Total current assets": 28571
+                        },
+                        "TOTAL ASSETS": 53360
+                    },
+                    "II": {
+                        "EQUITY": {
+                            "(a) Equity share capital": 543,
+                            "(b) Other equity": 40561,
+                            "TOTAL EQUITY": 41104
+                        }
+                    },
+                    "III": {
+                        "LIABILITIES": {
+                            "(1) Non - current liabilities": {
+                                "(a) Financial liabilities": {
+                                    "(i) Borrowings": 51,
+                                    "(ii) Lease liabilities": 436,
+                                    "(iii) Others": 29
+                                },
+                                "(b) Contract liabilities": 154,
+                                "(c) Provisions": 879,
+                                "(d) Deferred tax liabilities (net)": -465,
+                                "(e) Other non-current liabilities": 40
+                            },
+                            "Total non-current liabilities": 1589
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

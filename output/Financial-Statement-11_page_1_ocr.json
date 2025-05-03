@@ -1,0 +1,143 @@
+{
+    "statement_of_profit_and_loss": {
+        "year_ended": {
+            "31_march_2024": {
+                "revenue": {
+                    "revenue_from_operations": 48118,
+                    "other_income": 1076,
+                    "total_income": 49194
+                },
+                "expenses": {
+                    "purchase_of_stock_in_trade": 135,
+                    "changes_in_inventories_of_stock_in_trade": 10,
+                    "employee_benefits_expense": 20965,
+                    "outsourcing_costs": 7105,
+                    "finance_costs": 125,
+                    "depreciation_and_amortization_expense": 2371,
+                    "other_expenses": 3027,
+                    "total_expenses": 33738
+                },
+                "profit_before_tax": 15456,
+                "tax_expense": {
+                    "current_tax": 2873,
+                    "deferred_tax_charge": 909,
+                    "total_tax_expense": 3782
+                },
+                "profit_for_the_year": 11674,
+                "other_comprehensive_income_loss": {
+                    "items_not_reclassified_to_statement_of_profit_and_loss": {
+                        "items": 27,
+                        "income_tax_relating_to_items": -8
+                    },
+                    "items_reclassified_to_statement_of_profit_and_loss": {
+                        "items": 532,
+                        "income_tax_relating_to_items": -112
+                    },
+                    "total_other_comprehensive_income_loss_net_of_tax": 439
+                },
+                "total_comprehensive_income_for_the_year": 12113,
+                "earnings_per_equity_share_of_rs_2_each": {
+                    "basic_in_rp": 43.11,
+                    "diluted_in_rp": 43.02
+                }
+            },
+            "31_march_2023": {
+                "revenue": {
+                    "revenue_from_operations": 46276,
+                    "other_income": 1031,
+                    "total_income": 47307
+                },
+                "expenses": {
+                    "purchase_of_stock_in_trade": 168,
+                    "changes_in_inventories_of_stock_in_trade": -12,
+                    "employee_benefits_expense": 19799,
+                    "outsourcing_costs": 7291,
+                    "finance_costs": 127,
+                    "depreciation_and_amortization_expense": 2431,
+                    "other_expenses": 2787,
+                    "total_expenses": 32591
+                },
+                "profit_before_tax": 14716,
+                "tax_expense": {
+                    "current_tax": 3045,
+                    "deferred_tax_charge": 212,
+                    "total_tax_expense": 3257
+                },
+                "profit_for_the_year": 11459,
+                "other_comprehensive_income_loss": {
+                    "items_not_reclassified_to_statement_of_profit_and_loss": {
+                        "items": 175,
+                        "income_tax_relating_to_items": -63
+                    },
+                    "items_reclassified_to_statement_of_profit_and_loss": {
+                        "items": -453,
+                        "income_tax_relating_to_items": 82
+                    },
+                    "total_other_comprehensive_income_loss_net_of_tax": -259
+                },
+                "total_comprehensive_income_for_the_year": 11200,
+                "earnings_per_equity_share_of_rs_2_each": {
+                    "basic_in_rp": 42.32,
+                    "diluted_in_rp": 42.27
+                }
+            }
+        }
+    },
+    "material_accounting_policies": 1,
+    "notes": {
+        "integral_part_of_the_standalone_financial_statements": true,
+        "report_of_even_date_attached": true
+    },
+    "chartered_accountants": {
+        "firm": "B S R & Co. LLP",
+        "registration_number": "101248W/W-100022",
+        "partners": [
+            {
+                "name": "Rakesh Dewan",
+                "role": "Partner",
+                "membership_number": "092212",
+                "location": "Gurugram, India",
+                "date": "26 April 2024"
+            },
+            {
+                "name": "Roshni Nadar Malhotra",
+                "role": "Chairperson",
+                "din": "02346621",
+                "location": "Noida (UP), India",
+                "date": "26 April 2024"
+            },
+            {
+                "name": "C. Vijayakumar",
+                "role": "Chief Executive Officer and Managing Director",
+                "din": "09244485",
+                "location": "Noida (UP), India",
+                "date": "26 April 2024"
+            },
+            {
+                "name": "Prateek Aggarwal",
+                "role": "Chief Financial Officer",
+                "location": "Noida (UP), India",
+                "date": "26 April 2024"
+            },
+            {
+                "name": "Goutam Rungta",
+                "role": "Corporate Vice President - Finance",
+                "location": "Noida (UP), India",
+                "date": "26 April 2024"
+            },
+            {
+                "name": "S. Madhavan",
+                "role": "Director",
+                "din": "06451889",
+                "location": "Noida (UP), India",
+                "date": "26 April 2024"
+            },
+            {
+                "name": "Manish Anand",
+                "role": "Company Secretary",
+                "location": "Noida (UP), India",
+                "date": "26 April 2024"
+            }
+        ]
+    }
+}
