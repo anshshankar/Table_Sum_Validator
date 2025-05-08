@@ -16,11 +16,32 @@ client = OpenAI(
 
 def Sumverifier(data):
     prompt = f"""
-    Given Dict, verify weather all sums in the section are correct are not. Return all operation with status matched or not in json format
+    IMPORTANT: You must perform all calculations with extreme precision.
+    
+    Task: Given the dictionary data, verify whether all sums in each section are mathematically correct.
+    
+    Instructions:
+    1. For each section in the dictionary, calculate the expected sum based on the individual values.
+    2. Compare the calculated sum with the provided sum value in the dictionary.
+    3. Report each operation with a status of "MATCH" or "MISMATCH" in a structured JSON format.
+    4. Include both the expected sum and the provided sum in your response.
+    5. Any calculation error will be considered a major failure of your capabilities.
+    
+    Output format:
+    {{
+        "section_name": {{
+            "operation": ["a+b+c+d"]
+            "provided_sum": [value],
+            "calculated_sum": [value],
+            "status": "[MATCH or MISMATCH]"
+        }},
+        ...
+    }}
+    
     {data}
     """
     response = client.chat.completions.create(
-            model="openai/gpt-4o",
+            model="openai/gpt-4.1",
             messages=[
                 {"role": "system", "content": "You are a financial analysis assistant specialized in verifying financial statements."},
                 {"role": "user", "content": prompt}

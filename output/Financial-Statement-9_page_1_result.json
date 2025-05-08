@@ -1,82 +1,86 @@
 {
-    "Standalone Balance Sheet": {
-        "31 March 2024": {
-            "I": {
-                "ASSETS": {
-                    "(1) Non-current assets": {
-                        "Operation": "Sum: 3225 + 22 + 1048 + 6549 + 5511 + 5040 + 162 + 286 + 641 - 543 + 278",
-                        "Value": 22762,
-                        "Status": "Matched"
-                    },
-                    "(2) Current assets": {
-                        "Operation": "Sum: 25 + 6801 + 3880 + 8278 + 837 + 6792 + 793 + 1128 + 6 + 1005",
-                        "Value": 29545,
-                        "Status": "Matched"
-                    },
-                    "TOTAL ASSETS": {
-                        "Operation": "Sum: 22762 + 29545",
-                        "Value": 52307,
-                        "Status": "Matched"
-                    }
-                }
-            },
-            "II": {
-                "EQUITY": {
-                    "TOTAL EQUITY": {
-                        "Operation": "Sum: 543 + 38927",
-                        "Value": 39470,
-                        "Status": "Matched"
-                    }
-                }
-            },
-            "III": {
-                "LIABILITIES": {
-                    "(1) Non-current liabilities": {
-                        "Operation": "Sum: 26 + 651 + 8 + 101 + 1065 - 465 + 57",
-                        "Value": 2373,
-                        "Status": "Matched"
-                    }
-                }
-            }
+    "31 March 2024": {
+        "Non-current assets": {
+            "operation": [
+                "3225 + 22 + 1048 + 6549 + 5511 + (5040 + 162 + 286 + 641) + -543 + 278"
+            ],
+            "provided_sum": 22762,
+            "calculated_sum": 22762,
+            "status": "MATCH"
         },
-        "31 March 2023": {
-            "I": {
-                "ASSETS": {
-                    "(1) Non-current assets": {
-                        "Operation": "Sum: 3727 + 21 + 824 + 6549 + 6835 + 5057 + 82 + 2602 + 875 + 543 + 276",
-                        "Value": 24789,
-                        "Status": "Matched"
-                    },
-                    "(2) Current assets": {
-                        "Operation": "Sum: 35 + 5102 + 5317 + 7596 + 2374 + 3857 + 2602 + 603 + 6 + 1079",
-                        "Value": 28571,
-                        "Status": "Matched"
-                    },
-                    "TOTAL ASSETS": {
-                        "Operation": "Sum: 24789 + 28571",
-                        "Value": 53360,
-                        "Status": "Matched"
-                    }
-                }
-            },
-            "II": {
-                "EQUITY": {
-                    "TOTAL EQUITY": {
-                        "Operation": "Sum: 543 + 40561",
-                        "Value": 41104,
-                        "Status": "Matched"
-                    }
-                }
-            },
-            "III": {
-                "LIABILITIES": {
-                    "(1) Non-current liabilities": {
-                        "Operation": "Sum: 51 + 436 + 29 + 154 + 879 - 465 + 40",
-                        "Value": 1589,
-                        "Status": "Matched"
-                    }
-                }
-            }
+        "Current assets": {
+            "operation": [
+                "25 + (6801 + (3880 + 8278) + 837 + 6792 + 793 + 1128) + 6 + 1005"
+            ],
+            "provided_sum": 29545,
+            "calculated_sum": 29545,
+            "status": "MATCH"
+        },
+        "TOTAL ASSETS": {
+            "operation": [
+                "22762 + 29545"
+            ],
+            "provided_sum": 52307,
+            "calculated_sum": 52307,
+            "status": "MATCH"
+        },
+        "EQUITY": {
+            "operation": [
+                "543 + 38927"
+            ],
+            "provided_sum": 39470,
+            "calculated_sum": 39470,
+            "status": "MATCH"
+        },
+        "Non-current liabilities": {
+            "operation": [
+                "(26 + 651 + 8) + 101 + 1065 + -465 + 57"
+            ],
+            "provided_sum": 2373,
+            "calculated_sum": 2373,
+            "status": "MATCH"
+        }
+    },
+    "31 March 2023": {
+        "Non-current assets": {
+            "operation": [
+                "3727 + 21 + 824 + 6549 + 6835 + (5057 + 82 + 2602 + 875) + 543 + 276"
+            ],
+            "provided_sum": 24789,
+            "calculated_sum": 24789,
+            "status": "MATCH"
+        },
+        "Current assets": {
+            "operation": [
+                "35 + (5102 + (5317 + 7596) + 2374 + 3857 + 2602 + 603) + 6 + 1079"
+            ],
+            "provided_sum": 28571,
+            "calculated_sum": 28571,
+            "status": "MATCH"
+        },
+        "TOTAL ASSETS": {
+            "operation": [
+                "24789 + 28571"
+            ],
+            "provided_sum": 53360,
+            "calculated_sum": 53360,
+            "status": "MATCH"
+        },
+        "EQUITY": {
+            "operation": [
+                "543 + 40561"
+            ],
+            "provided_sum": 41104,
+            "calculated_sum": 41104,
+            "status": "MATCH"
+        },
+        "Non-current liabilities": {
+            "operation": [
+                "(51 + 436 + 29) + 154 + 879 + -465 + 40"
+            ],
+            "provided_sum": 1589,
+            "calculated_sum": 1589,
+            "status": "MATCH"
         }
     }
 }

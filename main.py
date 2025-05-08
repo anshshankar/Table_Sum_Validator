@@ -60,4 +60,4 @@ def ocr_processor(image_file_path):
 
     helper_main(output_ocr_file_path,output_result_file_path)  
 
-ocr_processor("input\Financial-Statement-9_page_1.jpg")
+ocr_processor("input\Financial-Statement-11_page_1.jpg")
