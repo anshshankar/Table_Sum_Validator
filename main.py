@@ -26,6 +26,8 @@ def ocr_processor(image_file_path):
     response_dict = json.loads(image_response.model_dump_json())
     image_ocr_markdown = image_response.pages[0].markdown
 
+    print(response_dict)
+
     chat_response = client.chat.complete(
         model="pixtral-12b-latest",
         messages=[
@@ -60,4 +62,7 @@ def ocr_processor(image_file_path):
 
     helper_main(output_ocr_file_path,output_result_file_path)  
 
-ocr_processor("input\Financial-Statement-11_page_1.jpg")
+from multiprocessing import Process
+
+
+ocr_processor("input\image.png")

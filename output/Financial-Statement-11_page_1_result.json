@@ -1,174 +1,72 @@
 {
-    "statement_of_profit_and_loss_31_march_2024_revenue": {
-        "operation": [
-            "revenue_from_operations + other_income"
-        ],
-        "provided_sum": [
-            49194
-        ],
-        "calculated_sum": [
-            48118,
-            "+",
-            1076,
-            "=",
-            49194
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2024_expenses": {
-        "operation": [
-            "purchase_of_stock_in_trade + changes_in_inventories_of_stock_in_trade + employee_benefits_expense + outsourcing_costs + finance_costs + depreciation_and_amortization_expense + other_expenses"
-        ],
-        "provided_sum": [
-            33738
-        ],
-        "calculated_sum": [
-            135,
-            "+",
-            10,
-            "+",
-            20965,
-            "+",
-            7105,
-            "+",
-            125,
-            "+",
-            2371,
-            "+",
-            3027,
-            "=",
-            33738
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2024_tax_expense": {
-        "operation": [
-            "current_tax + deferred_tax_charge"
-        ],
-        "provided_sum": [
-            3782
-        ],
-        "calculated_sum": [
-            2873,
-            "+",
-            909,
-            "=",
-            3782
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2024_other_comprehensive_income_loss": {
-        "operation": [
-            "(items_not_reclassified_to_statement_of_profit_and_loss.items + items_not_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items) + (items_reclassified_to_statement_of_profit_and_loss.items + items_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items)"
-        ],
-        "provided_sum": [
-            439
-        ],
-        "calculated_sum": [
-            "(",
-            27,
-            "+",
-            -8,
-            ")",
-            "+",
-            "(",
-            532,
-            "+",
-            -112,
-            ")",
-            "=",
-            19,
-            "+",
-            420,
-            "=",
-            439
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2023_revenue": {
-        "operation": [
-            "revenue_from_operations + other_income"
-        ],
-        "provided_sum": [
-            47307
-        ],
-        "calculated_sum": [
-            46276,
-            "+",
-            1031,
-            "=",
-            47307
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2023_expenses": {
-        "operation": [
-            "purchase_of_stock_in_trade + changes_in_inventories_of_stock_in_trade + employee_benefits_expense + outsourcing_costs + finance_costs + depreciation_and_amortization_expense + other_expenses"
-        ],
-        "provided_sum": [
-            32591
-        ],
-        "calculated_sum": [
-            168,
-            "+",
-            -12,
-            "+",
-            19799,
-            "+",
-            7291,
-            "+",
-            127,
-            "+",
-            2431,
-            "+",
-            2787,
-            "=",
-            32591
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2023_tax_expense": {
-        "operation": [
-            "current_tax + deferred_tax_charge"
-        ],
-        "provided_sum": [
-            3257
-        ],
-        "calculated_sum": [
-            3045,
-            "+",
-            212,
-            "=",
-            3257
-        ],
-        "status": "MATCH"
-    },
-    "statement_of_profit_and_loss_31_march_2023_other_comprehensive_income_loss": {
-        "operation": [
-            "(items_not_reclassified_to_statement_of_profit_and_loss.items + items_not_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items) + (items_reclassified_to_statement_of_profit_and_loss.items + items_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items)"
-        ],
-        "provided_sum": [
-            -259
-        ],
-        "calculated_sum": [
-            "(",
-            175,
-            "+",
-            -63,
-            ")",
-            "+",
-            "(",
-            -453,
-            "+",
-            82,
-            ")",
-            "=",
-            112,
-            "+",
-            -371,
-            "=",
-            -259
-        ],
-        "status": "MATCH"
+    "statement_of_profit_and_loss": {
+        "31_march_2024": {
+            "revenue_total_income": {
+                "operation": [
+                    "revenue_from_operations + other_income"
+                ],
+                "provided_sum": 49194,
+                "calculated_sum": 48118.0,
+                "status": "MISMATCH"
+            },
+            "expenses_total_expenses": {
+                "operation": [
+                    "purchase_of_stock_in_trade + changes_in_inventories_of_stock_in_trade + employee_benefits_expense + outsourcing_costs + finance_costs + depreciation_and_amortization_expense + other_expenses"
+                ],
+                "provided_sum": 33738,
+                "calculated_sum": 33738,
+                "status": "MATCH"
+            },
+            "tax_expense_total_tax_expense": {
+                "operation": [
+                    "current_tax + deferred_tax_charge"
+                ],
+                "provided_sum": 3782,
+                "calculated_sum": 3782,
+                "status": "MATCH"
+            },
+            "other_comprehensive_income_loss_total": {
+                "operation": [
+                    "items_not_reclassified_to_statement_of_profit_and_loss.items + items_not_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items + items_reclassified_to_statement_of_profit_and_loss.items + items_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items"
+                ],
+                "provided_sum": 439,
+                "calculated_sum": 439,
+                "status": "MATCH"
+            }
+        },
+        "31_march_2023": {
+            "revenue_total_income": {
+                "operation": [
+                    "revenue_from_operations + other_income"
+                ],
+                "provided_sum": 47307,
+                "calculated_sum": 47307,
+                "status": "MATCH"
+            },
+            "expenses_total_expenses": {
+                "operation": [
+                    "purchase_of_stock_in_trade + changes_in_inventories_of_stock_in_trade + employee_benefits_expense + outsourcing_costs + finance_costs + depreciation_and_amortization_expense + other_expenses"
+                ],
+                "provided_sum": 32591,
+                "calculated_sum": 32591,
+                "status": "MATCH"
+            },
+            "tax_expense_total_tax_expense": {
+                "operation": [
+                    "current_tax + deferred_tax_charge"
+                ],
+                "provided_sum": 3257,
+                "calculated_sum": 3257,
+                "status": "MATCH"
+            },
+            "other_comprehensive_income_loss_total": {
+                "operation": [
+                    "items_not_reclassified_to_statement_of_profit_and_loss.items + items_not_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items + items_reclassified_to_statement_of_profit_and_loss.items + items_reclassified_to_statement_of_profit_and_loss.income_tax_relating_to_items"
+                ],
+                "provided_sum": -259,
+                "calculated_sum": -259,
+                "status": "MATCH"
+            }
+        }
     }
 }

@@ -1,0 +1,179 @@
+[
+    {
+        "category": "ASSETS",
+        "subcategory": "Non-current assets",
+        "details": [
+            {
+                "note_no": "2.1",
+                "property_plant_equipment": {
+                    "31_March_2024": 3225,
+                    "31_March_2023": 3727
+                }
+            },
+            {
+                "note_no": "2.2",
+                "capital_work_in_progress": {
+                    "31_March_2024": 22,
+                    "31_March_2023": 21
+                }
+            },
+            {
+                "note_no": "2.30(a)",
+                "right_of_use_assets": {
+                    "31_March_2024": 1048,
+                    "31_March_2023": 824
+                }
+            },
+            {
+                "note_no": "2.3",
+                "goodwill": {
+                    "31_March_2024": 6549,
+                    "31_March_2023": 6549
+                }
+            },
+            {
+                "note_no": "2.4",
+                "other_intangible_assets": {
+                    "31_March_2024": 5511,
+                    "31_March_2023": 6835
+                }
+            },
+            {
+                "note_no": "2.5",
+                "financial_assets_investments": {
+                    "31_March_2024": 5040,
+                    "31_March_2023": 5057
+                }
+            },
+            {
+                "note_no": "2.6(a)",
+                "trade_receivables_unbilled": {
+                    "31_March_2024": 162,
+                    "31_March_2023": 82
+                }
+            },
+            {
+                "note_no": "2.7",
+                "loans": {
+                    "31_March_2024": 286,
+                    "31_March_2023": 0
+                }
+            },
+            {
+                "note_no": "2.8",
+                "others": {
+                    "31_March_2024": 641,
+                    "31_March_2023": 875
+                }
+            },
+            {
+                "note_no": "2.27",
+                "deferred_tax_assets_net": {
+                    "31_March_2024": 0,
+                    "31_March_2023": 543
+                }
+            },
+            {
+                "note_no": "2.10",
+                "other_non_current_assets": {
+                    "31_March_2024": 278,
+                    "31_March_2023": 276
+                }
+            },
+            {
+                "total_non_current_assets": {
+                    "31_March_2024": 22762,
+                    "31_March_2023": 24789
+                }
+            }
+        ]
+    },
+    {
+        "category": "ASSETS",
+        "subcategory": "Current assets",
+        "details": [
+            {
+                "note_no": "2.9",
+                "inventories": {
+                    "31_March_2024": 25,
+                    "31_March_2023": 35
+                }
+            },
+            {
+                "note_no": "2.5",
+                "financial_assets_investments": {
+                    "31_March_2024": 6801,
+                    "31_March_2023": 5102
+                }
+            },
+            {
+                "note_no": "2.6(b)",
+                "trade_receivables_billed": {
+                    "31_March_2024": 3880,
+                    "31_March_2023": 5317
+                }
+            },
+            {
+                "note_no": "2.6(b)",
+                "trade_receivables_unbilled": {
+                    "31_March_2024": 8278,
+                    "31_March_2023": 7596
+                }
+            },
+            {
+                "note_no": "2.11(a)",
+                "cash_and_cash_equivalents": {
+                    "31_March_2024": 837,
+                    "31_March_2023": 2374
+                }
+            },
+            {
+                "note_no": "2.11(b)",
+                "other_bank_balances": {
+                    "31_March_2024": 6792,
+                    "31_March_2023": 3857
+                }
+            },
+            {
+                "note_no": "2.7",
+                "loans": {
+                    "31_March_2024": 793,
+                    "31_March_2023": 2602
+                }
+            },
+            {
+                "note_no": "2.8",
+                "others": {
+                    "31_March_2024": 1128,
+                    "31_March_2023": 603
+                }
+            },
+            {
+                "note_no": "current_tax_assets_net",
+                "current_tax_assets_net": {
+                    "31_March_2024": 6,
+                    "31_March_2023": 6
+                }
+            },
+            {
+                "note_no": "2.12",
+                "other_current_assets": {
+                    "31_March_2024": 1005,
+                    "31_March_2023": 1079
+                }
+            },
+            {
+                "total_current_assets": {
+                    "31_March_2024": 29545,
+                    "31_March_2023": 28571
+                }
+            }
+        ]
+    },
+    {
+        "total_assets": {
+            "31_March_2024": 52307,
+            "31_March_2023": 53360
+        }
+    }
+]

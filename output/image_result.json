@@ -1,0 +1,38 @@
+{
+    "Non-current assets": {
+        "operation": [
+            "3225+22+1048+6549+5511+5040+162+286+641+0+278"
+        ],
+        "provided_sum": [
+            22762
+        ],
+        "calculated_sum": [
+            22762
+        ],
+        "status": "MATCH"
+    },
+    "Current assets": {
+        "operation": [
+            "25+6801+3880+8278+837+6792+793+1128+6+1005"
+        ],
+        "provided_sum": [
+            29545
+        ],
+        "calculated_sum": [
+            29545
+        ],
+        "status": "MATCH"
+    },
+    "Total assets": {
+        "operation": [
+            "22762+29545"
+        ],
+        "provided_sum": [
+            52307
+        ],
+        "calculated_sum": [
+            52307
+        ],
+        "status": "MATCH"
+    }
+}

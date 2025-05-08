@@ -88,56 +88,38 @@
         "integral_part_of_the_standalone_financial_statements": true,
         "report_of_even_date_attached": true
     },
-    "chartered_accountants": {
-        "firm": "B S R & Co. LLP",
-        "registration_number": "101248W/W-100022",
-        "partners": [
-            {
-                "name": "Rakesh Dewan",
-                "role": "Partner",
-                "membership_number": "092212",
-                "location": "Gurugram, India",
-                "date": "26 April 2024"
+    "auditors": {
+        "bsr_co_llp": {
+            "chartered_accountants": true,
+            "firm_registration_number": "101248W/W-100022",
+            "rakesh_dewan": {
+                "partner": true,
+                "membership_number": "092212"
             },
-            {
-                "name": "Roshni Nadar Malhotra",
-                "role": "Chairperson",
-                "din": "02346621",
-                "location": "Noida (UP), India",
-                "date": "26 April 2024"
+            "gurugram_india": "26 April 2024"
+        },
+        "board_of_directors_of_hcl_technologies_limited": {
+            "roshni_nadar_malhotra": {
+                "chairperson": true,
+                "din": "02346621"
             },
-            {
-                "name": "C. Vijayakumar",
-                "role": "Chief Executive Officer and Managing Director",
-                "din": "09244485",
-                "location": "Noida (UP), India",
-                "date": "26 April 2024"
+            "c_vijayakumar": {
+                "chief_executive_officer_and_managing_director": true,
+                "din": "09244485"
             },
-            {
-                "name": "Prateek Aggarwal",
-                "role": "Chief Financial Officer",
-                "location": "Noida (UP), India",
-                "date": "26 April 2024"
+            "prateek_aggarwal": {
+                "chief_financial_officer": true
             },
-            {
-                "name": "Goutam Rungta",
-                "role": "Corporate Vice President - Finance",
-                "location": "Noida (UP), India",
-                "date": "26 April 2024"
+            "goutam_rungta": {
+                "corporate_vice_president_finance": true
             },
-            {
-                "name": "S. Madhavan",
-                "role": "Director",
-                "din": "06451889",
-                "location": "Noida (UP), India",
-                "date": "26 April 2024"
+            "s_madhavan": {
+                "director": true,
+                "din": "06451889"
             },
-            {
-                "name": "Manish Anand",
-                "role": "Company Secretary",
-                "location": "Noida (UP), India",
-                "date": "26 April 2024"
+            "manish_anand": {
+                "company_secretary": true
             }
-        ]
+        }
     }
 }
